@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-# Date:
+# Date: 23.04.2025
 # AIM:
 To design a book front cover page using HTML and CSS.
 
@@ -29,6 +29,91 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 # PROGRAM:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Cover</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #fff; /* White background */
+        }
+        .book-cover {
+            width: 500px;
+            height: 700px;
+            background: url('https://i.pinimg.com/736x/c7/a5/85/c7a585e1bb94ca3447e9198f695320f6.jpg') center/cover no-repeat;
+            border: 10px solid #c7a585; /* Border color inspired by the image */
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+        }
+        .title {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 20px 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #f9f9f9;
+            font-style: italic;
+            margin: 10px 0 20px 0;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+        }
+        .author {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            margin-top: 30px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        .quote {
+            font-size: 1rem;
+            color: #f0f0f0;
+            margin: 20px 0;
+            font-style: italic;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+        }
+        .decorative-line {
+            height: 4px;
+            width: 90%;
+            margin: 20px auto;
+            background: linear-gradient(90deg,rgb(187, 154, 121), #fff);
+        }
+    </style>
+</head>
+<body>
+    <div class="book-cover">
+        <div class="title">The Journey Within</div>
+        <div class="decorative-line"></div>
+        <div class="subtitle">An Inspiring Tale of Discovery</div>
+        <div class="quote">"The best way to find yourself is to lose yourself in the service of others."</div>
+        <div class="author">By HARINE S</div>
+    </div>
+</body>
+</html>
+
+```
 # OUTPUT:
+
+![Screenshot 2025-04-23 172045](https://github.com/user-attachments/assets/277b77ab-0c32-4e32-980a-d0aa68830331)
+
 # RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
