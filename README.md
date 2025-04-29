@@ -105,6 +105,7 @@ Publish the website in the LocalHost.
         <div class="decorative-line"></div>
         <div class="subtitle">An Inspiring Tale of Discovery</div>
         <div class="quote">"The best way to find yourself is to lose yourself in the service of others."</div>
+        <img src="/static/image.png" width="120" height="100" > 
         <div class="author">By HARINE S</div>
     </div>
 </body>
@@ -113,7 +114,8 @@ Publish the website in the LocalHost.
 ```
 # OUTPUT:
 
-![Screenshot 2025-04-23 172045](https://github.com/user-attachments/assets/277b77ab-0c32-4e32-980a-d0aa68830331)
+![image](https://github.com/user-attachments/assets/306b75fb-526e-4819-a68a-3b0ead2771e4)
+
 
 # RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
